@@ -244,8 +244,21 @@ z-index: 1;
 .feet {
   position: absolute;
 }
+.skill-abt-cont {
+  width: 100%;
+  /*height: 250px;*/
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  margin: 2% auto 10px auto;
+  justify-content: space-evenly;
+  align-items: center;
+  /*margin-top: -150px;*/
+  position: relative;
+}
 .abt-cont {
-  width: 80%;
+  width: 100%;
   /*height: 250px;*/
   background: #ffffff;
   border-radius: 20px;
@@ -364,6 +377,7 @@ section {
 .skill-text {
   width: 80%;
 }
+
 /*<----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->*/
 /*---Responsive------*/
 @media (max-width: 768px) {
